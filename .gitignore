@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Vector database (generated)
+vectorstore/faiss_index/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
