@@ -34,17 +34,17 @@ This system solves that by:
 ## 🏗️ System Architecture
 
 PDF Documents
-    ↓
+    ->
 Text Chunking
-    ↓
+    ->
 Embedding Generation
-    ↓
+    ->
 FAISS Vector Store
-    ↓
+    ->
 Retriever
-    ↓
+    ->
 LLM (Ollama / Mistral)
-    ↓
+    ->
 Final Answer
 
 
@@ -74,16 +74,25 @@ Final Answer
 
 enterprise-rag-system/
 │
+
 ├── api/ # FastAPI routes
+
 ├── ingestion/ # Document ingestion logic
+
 ├── embeddings/ # Embedding generation
+
 ├── vectorstore/ # FAISS vector database
+
 ├── chains/ # RAG chains and retrievers
+
 ├── ui/ # Streamlit application
+
 ├── config/ # Configurations
 │
 ├── requirements.txt
+
 ├── README.md
+
 ├── .gitignore
 
 
@@ -118,29 +127,37 @@ enterprise-rag-system/
 pip install -r requirements.txt
 ```
 
-## 🚀 Running the Application
+🚀 Running the Application
 
 ### 2️⃣ Start Ollama (LLM)
+```bash
 ollama run mistral
-
+```
 ### 3️⃣ Run FastAPI Backend
+```bash
 uvicorn api.main:app --reload
-
-
+```
+```
 FastAPI will be available at:
 
 http://localhost:8000
+```
 
 ### 4️⃣ Run Streamlit UI
+```bash
 streamlit run ui/app.py
 
-
+```
+```
 Streamlit UI will be available at:
 
 http://localhost:8501
+```
 
 ## 👨‍💻 Author
 
 Revan Gaikwad
+
 End-to-End RAG System Project
+
 
