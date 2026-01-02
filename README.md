@@ -6,6 +6,9 @@ This project demonstrates **real-world MLOps + GenAI engineering practices** and
 
 ---
 
+<img width="1882" height="755" alt="image" src="https://github.com/user-attachments/assets/2163d08a-7635-43aa-84b1-086b65f27062" />
+
+
 ## 🚀 Project Objective
 
 The main goal of this project is to:
@@ -159,5 +162,6 @@ http://localhost:8501
 Revan Gaikwad
 
 End-to-End RAG System Project
+
 
 
