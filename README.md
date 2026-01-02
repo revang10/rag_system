@@ -118,11 +118,12 @@ enterprise-rag-system/
 pip install -r requirements.txt
 ```
 
-🚀 Running the Application
-2️⃣ Start Ollama (LLM)
+## 🚀 Running the Application
+
+### 2️⃣ Start Ollama (LLM)
 ollama run mistral
 
-3️⃣ Run FastAPI Backend
+### 3️⃣ Run FastAPI Backend
 uvicorn api.main:app --reload
 
 
@@ -130,7 +131,7 @@ FastAPI will be available at:
 
 http://localhost:8000
 
-4️⃣ Run Streamlit UI
+### 4️⃣ Run Streamlit UI
 streamlit run ui/app.py
 
 
@@ -138,7 +139,8 @@ Streamlit UI will be available at:
 
 http://localhost:8501
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Revan Gaikwad
 End-to-End RAG System Project
+
